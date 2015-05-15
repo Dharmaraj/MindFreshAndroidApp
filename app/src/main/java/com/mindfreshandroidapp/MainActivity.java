@@ -25,6 +25,8 @@ public class MainActivity extends ActionBarActivity {
     private InterstitialAd mInterstitialAd;
     private TextView mLevelTextView;
 
+    String name;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
